@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'tsuw%ib$4i+6(=i3q#67g32nozrp)#1)h53c!$@+ra&pio42ez'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False#True
+DEBUG = True
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8080'
@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': 'icourse',  # MySQL中Schema名字
         'USER':'root',
         'PASSWORD':'buaa@icourse',  
-        'HOST':'127.0.0.1',  
+        'HOST':'211.159.175.12',  
         'PORT':'3306' 
          
         #'USER':'root',
